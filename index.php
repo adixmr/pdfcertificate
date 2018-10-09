@@ -1,6 +1,5 @@
 <?php
 
-
 if(ctype_alnum($_REQUEST['event'])){ //checks if the event name is alphanumeric
 
 $file = explode("\n",$_REQUEST['list']);  //explodes the list of names (by newline) into an array
